@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 25px 30px;
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 9999;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #dc143c;
+    margin: 10px 10px ;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+header a {
+    text-decoration: none;
+    color: #dc143c;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw; 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+header nav ul li a:hover {
+    background: #dc143c;
+    color: white;
+    border-radius: 15px;
+    text-shadow: none;
+}    
+footer {
+    background: lightgray;
+    width: 100%;
+    padding: 40px 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer h2 {
+    color: #dc143c;
+    font-size: 40px;
+    margin-top: 10%;
+}
+footer h2 .me {
+    display: block;
+}
+footer #verticle-line {
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin-top: ;
+}
+.telephone {
+  margin-left: 30%;
+}
