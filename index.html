@@ -4,13 +4,14 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width-device-width, initial-scale=1.0" />
         <title>Gunnars Portfolio</title>
-        <link rel="stylesheet" href=""/>
+        <link rel="stylesheet" href="./Assets/style.css"/>
     </head>
     <body>
         <!--Navigation-->
        <header>
         <h1>
-            <a href="/">Portfolio</a>
+            <a href="/">Gunnar Smith</a>
+        </h1>    
             <nav>
                 <ul>
                     <li>
@@ -27,19 +28,23 @@
                     </li>
                 </ul>
             </nav>
-        </h1>
         </header>
         <!--Cool Subtitle-->
-        <section id="subtitle" class="Sub">
-            <div class="sub-title">
-                <h2>Gunnars Realm</h2>
-            </div>
-        </section>
+        <section class="sub-title" id="subtitle">
+            <div class="hero-image">
+                <div class="hero-text">
+                  <h1>Welcome to Gunnars Realm</h1>
+                  <p>I'm a Web Developer</p>
+                  <p2>Hire me</p2>
+                </div>
+              </div>
+      </section>
         <!--About me section-->
-        <section id="about-me" class="intro">
+        <section class="intro" id="about-me">
             <div class="flex-row">
-                <h2>About Me</h2>
+                <h2>About<span class="me">Me</span></h2>
             </div>
+            <div id="verticle-line"></div>
             <div class="flex-row">
                 <p>My name is Gunnar Smith, Im from New Braunfels, TX. As of right now I am a social studies teacher and a new father. My passions are sports and screen writing.</p>
             </div>
@@ -87,19 +92,32 @@
             </div>
         </section>
         <!--Footer-->
-        <footer> 
-            <h2>Contact</h2>
-            <div class="telephone">
-                <a href="tel:830.302.1410">830.302.1410</a>
+        <footer id="contact me"> 
+            <div class="flex-row">
+            <h2>Contact <span class="me">Me</span></h2>
             </div>
-            <div class="Email">
-                <a href="mailto:gunnarsmith3@gmail.com">gunnarsmith3@gmail.com</a>
-            </div>
-            <div class="github">
-                <a href="github:GunnarSmith2">GunnarSmith2</a>
-            </div>
-            <div>
-                <a href="https://twitter.com/SmithGunnar?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @SmithGunnar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div id="verticle-line"></div>
+            <div class="contact">
+            <!--Telephone-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="tel:830.302.1410">830.302.1410</a>
+                    </li>
+                    <li>
+                        <a href="mailto:gunnarsmith3@gmail.com">gunnarsmith3@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="github:GunnarSmith2">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/SmithGunnar">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="/">Spotify</a>
+                    </li>
+                </ul>
+            </nav>
             </div>
         </footer>
     </body>

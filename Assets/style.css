@@ -3,14 +3,12 @@
     padding: 0;
     box-sizing: border-box ;
 }
-
 body {
     color: red;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 header {
-    padding: 25px 30px;
+    padding: 20px 20px;
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
@@ -34,6 +32,7 @@ header a {
 }
 header nav {
     margin: 7px 0;
+    text-decoration: underline;
 }
 header nav ul {
     display: flex;
@@ -62,28 +61,80 @@ footer {
     flex-wrap: wrap;
 }
 footer h2 {
+    position: relative;
     color: #dc143c;
     font-size: 40px;
-    margin-top: 10%;
+    bottom: -10px;
+    left: 150px;
 }
 footer h2 .me {
     display: block;
 }
 footer #verticle-line {
-    width: 1px;
+    width: 3px;
     height: 100px;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     margin-left: 20%;
 }
-.contact {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-size: 20px;
-    margin-top: ;
+footer nav {
+    margin: 7px 0;
+    text-decoration: underline;
 }
-.telephone {
-  margin-left: 30%;
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+footer nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 20px; 
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/cement-floor-wall-backgrounds-room-interior-display-products_34552-317.webp);
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    font-size: large;
+}
+.intro {
+    padding: 20px 35px;
+    background: lightgray;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.intro h2 {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 10%;
+    font-size: 40px;
+
+}
+#about-me h2 .me {
+    display: block;
+}
+#about-me #verticle-line {
+    width: 3px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
 }
