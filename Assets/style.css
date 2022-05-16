@@ -61,11 +61,12 @@ footer {
     flex-wrap: wrap;
 }
 footer h2 {
-    position: relative;
     color: #dc143c;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 8%;
     font-size: 40px;
-    bottom: -10px;
-    left: 150px;
 }
 footer h2 .me {
     display: block;
@@ -76,7 +77,9 @@ footer #verticle-line {
     background-color: black;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     margin-left: 20%;
+    position: sticky;
 }
 footer nav {
     margin: 7px 0;
@@ -85,7 +88,7 @@ footer nav {
 footer nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
 }
@@ -125,16 +128,24 @@ footer nav ul li a {
     position: absolute;
     left: 10%;
     font-size: 40px;
-
 }
-#about-me h2 .me {
+.intro h2 .me {
     display: block;
 }
-#about-me #verticle-line {
+.intro #verticle-line {
     width: 3px;
     height: 100px;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     margin-left: 20%;
+    position: sticky;
+}
+.intro p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    top: 20px;
 }
